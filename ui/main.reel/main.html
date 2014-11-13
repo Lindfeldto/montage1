@@ -26,6 +26,13 @@
                 "value": "Text"
             }
         },
+        "text2": {
+            "prototype": "montage/ui/text.reel",
+            "properties": {
+                "element": {"#": "text2"},
+                "value": "Text"
+            }
+        },
         "title": {
             "prototype": "digit/ui/title.reel",
             "properties": {
@@ -38,7 +45,10 @@
 </head>
 <body>
     <div data-montage-id="main" data-montage-skin="light" class="Main">
-        <h1 data-montage-id="title">Drop Zone</h1>
+        <h1 data-montage-id="title">
+            Drop Zone
+            <p data-montage-id="text2"></p>
+        </h1>
         <ul data-montage-id="repetition2">
             <p data-montage-id="text"></p>
         </ul>
